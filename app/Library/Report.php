@@ -2,12 +2,12 @@
 
 namespace App\Library;
 
-use App\Library\CSV\Traits\FilterTrait;
+use App\Library\Traits\FilterTrait;
 
 abstract class Report implements ValidateInterface, FilterInterface {
 
     use FilterTrait;
-    
+
     abstract public function findBestMatch();
 
 }

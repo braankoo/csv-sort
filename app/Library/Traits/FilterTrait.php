@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Library\CSV\Traits;
+namespace App\Library\Traits;
 
 trait FilterTrait {
 
