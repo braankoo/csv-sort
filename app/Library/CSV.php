@@ -4,7 +4,6 @@ namespace App\Library;
 
 use App\Exceptions\InvalidCsvException;
 use App\Library\CSV\Columns;
-use App\Library\CSV\Traits\FilterTrait;
 use App\Library\CSV\Validate\Type;
 use App\Library\CSV\Validate\Value;
 use League\Csv\Statement;
